@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import initialSettings.BrowserSetting;
-import objectRepository.EditingPage;
 import objectRepository.LoginPage;
 import variablesData.UserVariables;
 
