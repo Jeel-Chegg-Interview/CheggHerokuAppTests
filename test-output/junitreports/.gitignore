@@ -1,0 +1,8 @@
+/TEST-editingTests.TestDiscardFunctionalityCheck.xml
+/TEST-editingTests.TestEditCreateButton.xml
+/TEST-editingTests.TestEditingInterfaceConfirmation.xml
+/TEST-editingTests.TestSaveChangesPersistance.xml
+/TEST-loginTests.TestLoginURLRedirect.xml
+/TEST-loginTests.TestNegativeEditButtonScenario.xml
+/TEST-loginTests.TestNegativeLoginCredentials.xml
+/TEST-loginTests.TestPositiveLoginCredentials.xml
