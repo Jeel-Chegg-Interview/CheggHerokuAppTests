@@ -1,19 +1,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="WIKITestSuite" verbose="5">
-	<test name="WIKILoginTest" thread-count="4">
+	<test name="WIKILoginTests" thread-count="4">
 		<classes>
-		<class name = "" />
-		<class name = "" />
-		<class name = "" />
-		<class name = "" />
+		<class name = "loginTests.TestLoginURLRedirect" />
+		<class name = "loginTests.TestNegativeEditButtonScenario" />
+		<class name = "loginTests.TestNegativeLoginCredentials" />
+		<class name = "loginTests.TestPositiveLoginCredentials" />
 		</classes>
 	</test>
-	<test name="WIKIEditingTest" thread-count="5">
+	<test name="WIKIEditingTests" thread-count="4">
 		<classes>
-		<class name = "" />
-		<class name = "" />
-		<class name = "" />
-		<class name = "" />
+		<class name = "editingTests.TestDiscardFunctionalityCheck" />
+		<class name = "editingTests.TestEditCreateButton" />
+		<class name = "editingTests.TestEditingInterfaceConfirmation" />
+		<class name = "editingTests.TestSaveChangesPersistance" />
 		</classes>
 	</test>
 </suite>

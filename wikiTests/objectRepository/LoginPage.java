@@ -8,14 +8,17 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
 	WebDriver driver;
 
-	@FindBy(id = "username")
+	@FindBy(id = "login-user")
 	WebElement username;
 
-	@FindBy(id = "password")
+	@FindBy(id = "login-pass")
 	WebElement password;
 	
-	@FindBy(xpath = "//*[@id=\"form-validate\"]/div[2]/button")
+	@FindBy(xpath = "//button[text()='Log In']")
 	WebElement login_button;
+	
+	@FindBy(xpath = "//*[text()='The email or password is invalid.']")
+	WebElement loginUnsuccessful;
 	
 	// Constructor to initialize driver and load web element using PageFactory
 	public LoginPage(WebDriver driver) {
@@ -33,5 +36,9 @@ public class LoginPage {
 
 	public WebElement Login_buttonElement() {
 		return login_button;
+	}
+	
+	public WebElement LoginUnsuccessful() {
+		return loginUnsuccessful;
 	}
 }
