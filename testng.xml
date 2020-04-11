@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WIKITestSuite" verbose="5">
+	<test name="WIKILoginTest" thread-count="4">
+		<classes>
+		<class name = "" />
+		<class name = "" />
+		<class name = "" />
+		<class name = "" />
+		</classes>
+	</test>
+	<test name="WIKIEditingTest" thread-count="5">
+		<classes>
+		<class name = "" />
+		<class name = "" />
+		<class name = "" />
+		<class name = "" />
+		</classes>
+	</test>
+</suite>
